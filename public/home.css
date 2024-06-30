@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    background-color: rgb(84, 138, 169);
+}
+
+h1{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+ul{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+a{
+    width: fit-content;
+    border: 1px solid black;
+    padding: .9rem;
+    background-color: rgba(128, 0, 0, 0.893);
+    color: wheat;
+    text-decoration: none;
+    font-size: larger;
+}
